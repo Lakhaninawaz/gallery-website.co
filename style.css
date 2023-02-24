@@ -2,6 +2,10 @@
     margin: 6rem !important;
 }
 
+.mt-10{
+    margin-top: 6rem !important;
+}
+
 .text-red{
     color: red !important;
 }
@@ -54,6 +58,13 @@
     display: none;
 }
 
+.about-img{
+  /* padding: 50px; */
+}
+.about-img img{
+  height: 500px;
+  padding: 50px;
+}
 /* The "show" class is added to the filtered elements */
 .show {
     display: block;
