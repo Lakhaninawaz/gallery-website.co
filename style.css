@@ -1,0 +1,83 @@
+.m-10{
+    margin: 6rem !important;
+}
+
+.text-red{
+    color: red !important;
+}
+
+.equal-height {
+    height: 650px !important; /* adjust this value as desired */
+  }
+
+  .bg-gray{
+    background-color: #f7f7f7;
+  }
+
+.nav-link:hover{
+    /* background-color: blue; */
+    color: red !important;
+}
+
+.trans-nav {
+    transition: background-color 0.5s ease;
+}
+
+#ul-filters li{
+    cursor: pointer;
+}
+
+.active, .nav-active {
+    color: red !important;
+  }
+
+.cr img{
+    height: 350px;
+}
+
+.cb{
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.cr:hover img{
+    opacity: 0.3;
+}
+
+.cr:hover .cb{
+    display: block;
+}
+
+
+.filterDiv{
+    display: none;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+  }
+
+  .card-deck .card {
+    min-width: 220px;
+  }
+
+  /* .form-control:focus {
+    border-color: #FF0000 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 0, 0, 0.6);
+  } */
+
+  .form-control:focus {
+    border-color: #ff0000 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 0, 0, 0.5);
+}
+
+.fab{
+  color: white;
+}
+
+.fab:hover{
+  color: #ff0000;
+  transition: all 300ms linear 0s;
+}
